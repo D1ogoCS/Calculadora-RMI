@@ -74,12 +74,26 @@ Para realizar operações com números que possuem casas decimais, é necessári
 
 *Operação com ponto flutuante*
 
-#### 7. Apagar dígitos
-A calculadora possui a funcionalidade de apagar dígitos introduzidos, é apenas necessário clicar no botão com o símbolo “<-“.
+#### 7. Apagar caracteres
+A calculadora possui a funcionalidade de apagar caracteres introduzidos, é apenas necessário clicar no botão com o símbolo “<-“.
 
-![]()
+#### 8. Apagar tudo
+Para realizar a função de apagar tudo, é necessário clicar no botão com o símbolo “C”, que simplesmente irá limpar ambas as caixas de texto (caixa de texto superior e caixa de texto inferior). Isso faz com que a calculadora possa ficar disponível para outra operação.
 
-**
+#### 9. Obter resultado anterior
+É possível obter o resultado obtido na operação anterior através do botão "Ans" e voltar a realizar uma operação com esse valor.
+
+#### 10. Expoente
+O expoente requer a introdução de dois números: 
+
+- O primeiro é a base;
+- O segundo é o expoente.
+
+Primeiro é introduzido o número base e depois clica-se no botão com o símbolo “ $x^y$ ”. A seguir introduz-se o expoente e por fim, é necessário clicar no botão resultado "=". 
+
+![Operação com expoente](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/operacaoExpoente.png)
+
+*Operação com expoente*
 
 ![]()
 
