@@ -18,7 +18,7 @@ O servidor cria objetos remotos e disponibiliza referências a esses objetos. O 
 
 ### Resultados:
 #### 1. Inicio
-Ao iniciar a aplicação da Calculadora, é exibida uma janela onde é necessario introduzir um IP de um servidor RMI existente.
+Ao iniciar a aplicação da Calculadora, é exibida uma janela onde é necessario introduzir um IP (Internet Protocol) de um servidor RMI existente.
 
 ![Janela inicial](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/janelaInicial.png)
 
@@ -34,10 +34,25 @@ Se o IP do servidor RMI introduzido não existir ou estiver errado, vai obter um
 
 Para resolver este erro existem tem duas opções: 
 
-1. Verificar se o servidor RMI está a ser executado
+1. Verificar se o servidor RMI está a ser executado;
 2. Corrigir o IP do servidor RMI introduzido.
 
 Após conseguir estabelecer conexão entre a calculadora e o servidor, vai conseguir utilizar a calculadora sem qualquer restrição. 
+
+#### 2. Interface da calculadora
+Após introduzir o IP desejado, e de clicar no botão __Confirmar__, é exibida a janela da calculadora.
+
+![Interface da calculadora](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/interfaceCalculadora.png)
+
+*Interface da calculadora*
+
+![]()
+
+**
+
+![]()
+
+**
 
 ![]()
 
