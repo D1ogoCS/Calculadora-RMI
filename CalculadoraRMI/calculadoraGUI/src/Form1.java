@@ -84,7 +84,7 @@ public class Form1 extends javax.swing.JFrame {
         
         if(ipServidorTextBox.getText().length() == 0)
         {
-            JOptionPane.showMessageDialog(null, "É necessario fornecer primeiro\num endereço IP antes de continuar.","Informação",JOptionPane.INFORMATION_MESSAGE); 
+            JOptionPane.showMessageDialog(null, "É necessario fornecer primeiro\um endereço IP antes de continuar.","Informação",JOptionPane.INFORMATION_MESSAGE); 
         }
         if(ipServidorTextBox.getText().length() != 0)
         {
