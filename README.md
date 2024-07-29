@@ -18,7 +18,7 @@ O servidor cria objetos remotos e disponibiliza referências a esses objetos. O 
 
 ### Resultados:
 #### 1. Inicio
-Ao iniciar a aplicação da Calculadora, é exibida uma janela onde é necessario introduzir um IP (Internet Protocol) de um servidor RMI existente.
+Ao iniciar a aplicação da Calculadora, é exibida uma janela onde é necessário introduzir um IP (Internet Protocol) de um servidor RMI existente.
 
 ![Janela inicial](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/janelaInicial.png)
 
@@ -46,9 +46,19 @@ Após introduzir o IP desejado, e de clicar no botão __Confirmar__, é exibida 
 
 *Interface da calculadora*
 
-![]()
+A calculadora conta com uma variedade de operações, desde as mais básicas como soma, substração, multiplicação e divisão, mas também as operações mais avançadas como exponeciação, raiz, logaritmo, módulo e trigonometria.
 
-**
+#### 3. Voltar ao menu
+A calculadora RMI possui o botão “Voltar”, que irá voltar para o menu apresentado anteriormente onde poderá altera o IP do servidor caso seja necessário, sem ter que fechar a calculadora.
+
+#### 4. Operações básicas
+A seguir pode-se observar um exemplo de uma operação simples de multiplicação e como as operações são apresentadas. É de notar que os botões das operações são desativados após clicar em qualquer tipo de operação, para que não haja operações introduzidas simultaneamente, pois a calculadora apenas realiza uma operação por vez.
+
+Para realizar a operação é necessário introduzir um primeiro número, depois clicar no botão da operação desejada, a seguir introduzir outro número e por fim clicar no botão de resultado, representado pelo simbolo “=”. Só é possivel introduzir números de até dez digitos.
+
+![Operação de multiplicação](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/multiplicacao.png)
+
+*Operação de multiplicação*
 
 ![]()
 
