@@ -1,2 +1,2 @@
 # Calculadora
-## Desenvolver uma calculadora através do java RMI
+## Desenvolver uma calculadora com interface gráfica e com os calculos as serem executados num servidor remoto
