@@ -8,11 +8,11 @@ public class ServidorRMI {
             ICalculadora calc = new Calculadora();
             String objName = "rmi://localhost/Calc";
 			
-            System.out.println("Registrando o objeto no RMIRegistry...");
+            System.out.println("A registar o objeto no RMIRegistry...");
             LocateRegistry.createRegistry(1099);
             Naming.rebind(objName, calc);
 
-            System.out.println("Aguardando Clientes!");
+            System.out.println("A aguardar Clientes!");
         } catch (Exception e) {
             e.printStackTrace();
         }
