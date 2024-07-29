@@ -54,19 +54,28 @@ A calculadora RMI possui o botão “Voltar”, que irá voltar para o menu apre
 #### 4. Operações básicas
 A seguir pode-se observar um exemplo de uma operação simples de multiplicação e como as operações são apresentadas. É de notar que os botões das operações são desativados após clicar em qualquer tipo de operação, para que não haja operações introduzidas simultaneamente, pois a calculadora apenas realiza uma operação por vez.
 
-Para realizar a operação é necessário introduzir um primeiro número, depois clicar no botão da operação desejada, a seguir introduzir outro número e por fim clicar no botão de resultado, representado pelo simbolo “=”. Só é possivel introduzir números de até dez digitos.
+Para realizar a operação é necessário introduzir um primeiro número, depois clicar no botão da operação desejada, a seguir introduzir outro número e por fim clicar no botão de resultado, representado pelo simbolo “=”. Só é possivel introduzir números de até dez dígitos.
 
 ![Operação de multiplicação](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/multiplicacao.png)
 
 *Operação de multiplicação*
 
-![]()
+#### 5. Números negativos
+Para realizar operações com números negativos, é necessário clicar no botão representado com o símbolo “(-)”. É apenas possível colocar o sinal antes de introduzir qualquer número.
 
-**
+![Operação com números negativos](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/operacaoNumerosNegativos.png)
 
-![]()
+*Operação com números negativos*
 
-**
+#### 6. Ponto flutuante
+Para realizar operações com números que possuem casas decimais, é necessário clicar no botão com o símbolo “.”, que vai adicionar o ponto flutuante ao número desejado.
+
+![Operação com ponto flutuante](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/operacaoPontoFlutuante.png)
+
+*Operação com ponto flutuante*
+
+#### 7. Apagar dígitos
+A calculadora possui a funcionalidade de apagar dígitos introduzidos, é apenas necessário clicar no botão com o símbolo “<-“.
 
 ![]()
 
