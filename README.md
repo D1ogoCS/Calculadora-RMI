@@ -95,6 +95,19 @@ Primeiro é introduzido o número base e depois clica-se no botão com o símbol
 
 *Operação com expoente*
 
+#### 11. Raiz
+A operação raiz requer dois números diferentes, o primeiro número será o índice (raiz quadrada, raiz cúbica...) e o segundo número será o número sobre o qual se vai calcular a raiz. Primeiro introduzimos o índice, depois clicamos no símbolo “x √y” e para terminar introduzimos o número que vai estar sob o símbolo da raiz.
+
+![Operação com raiz](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/operacaoRaiz.png)
+
+*Operação com raiz*
+
+#### 12. Operação módulo
+
+![]()
+
+**
+
 ![]()
 
 **
