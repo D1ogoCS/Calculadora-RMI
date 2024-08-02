@@ -1,7 +1,7 @@
 # Calculadora
 ## Desenvolver uma calculadora com interface gráfica e com os cálculos as serem executados num servidor remoto
 
-No âmbito da disciplina de Sistemas Distribuídos, foi proposto a realização de um trabalho em linguagem de programação java de uma calculadora RMI com interface gráfica. O RMI (Invocação de Método Remoto) é uma interface de programação que permite a execução de chamadas remotas desenvolvidas em Java. Segue o modelo Cliente-Servidor, no qual o servidor é um “host” que pode executar um ou mais serviços partilhados com os clientes. O cliente apenas solicita funções do servidor. 
+No âmbito da disciplina de Sistemas Distribuídos, foi proposto a realização de um trabalho em linguagem de programação Java de uma calculadora RMI com interface gráfica. O RMI (Invocação de Método Remoto) é uma interface de programação que permite a execução de chamadas remotas desenvolvidas em Java. Segue o modelo Cliente-Servidor, no qual o servidor é um “host” que pode executar um ou mais serviços partilhados com os clientes. O cliente apenas solicita funções do servidor. 
 O servidor cria objetos remotos e disponibiliza referências a esses objetos. O cliente obtém referências a esses objetos remotos do servidor e invoca métodos nesses objetos.
 
 ### Objetivos:
@@ -96,23 +96,38 @@ Primeiro é introduzido o número base e depois clica-se no botão com o símbol
 *Operação com expoente*
 
 #### 11. Raiz
-A operação raiz requer dois números diferentes, o primeiro número será o índice (raiz quadrada, raiz cúbica...) e o segundo número será o número sobre o qual se vai calcular a raiz. Primeiro introduzimos o índice, depois clicamos no símbolo “x √y” e para terminar introduzimos o número que vai estar sob o símbolo da raiz.
+A operação raiz requer dois números diferentes, o primeiro número será o índice (raiz quadrada, raiz cúbica...) e o segundo número será o número sobre o qual se vai calcular a raiz. Primeiro é necessário introduzir o índice, depois clica-se no símbolo “x √y” e para terminar introduz-se o número que vai estar sob o símbolo da raiz.
 
 ![Operação com raiz](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/operacaoRaiz.png)
 
 *Operação com raiz*
 
 #### 12. Operação módulo
+A operação mod consiste numa operação que dado dois números, um dividendo e um divisor, resultará no resto da divisão desses números. Primeiro é necessário introduzir o dividendo, depois clicar no botão “mod” e por fim introduz o divisor.
 
-![]()
+![Operação mod](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/operacaoMod.png)
 
-**
+*Operação mod*
 
-![]()
+#### 13. Logaritmo
+Na operação de logaritmo, é necessário introduzir o número da base do logaritmo e o número logaritmando. Para realizar esta operação, primeiro é necessário clicar no botão “log” para iniciar a operação log, depois introduzir a base do logaritmo desejado e clicar novamente no botão “log” para fechar a operação. Por fim, é necessário introduzir o logaritmando.
 
-**
+![Operação log](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/operacaoLogaritmo.png)
 
-![]()
+*Operação log*
 
-**
+#### 14. Operações Trigonométricas
+A calculadora também conta com operações trigonométricas, onde engloba o cosseno (cos), seno (sin) e tangente (tan), como também as suas inversas: arco cosseno ($𝑐𝑜𝑠 ^{−1}$), arco seno ($𝑠𝑖𝑛^{−1}$) e arco tangente ($𝑡𝑎𝑛^{−1}$).
+
+Para realizar as operações trigonométricas, como por exemplo, uma operação com o cosseno, primeiro é necessário clicar no botão “cos” e de seguida introduzir um número. O número introduzido estará em graus, isto para as operações de cos, sin e tan.
+
+![Operação com cosseno](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/operacaoTrignometrica.png)
+
+*Operação com cosseno*
+
+Para realizar operações trigonométricas inversas, como $𝑐𝑜𝑠 ^{−1}$, $𝑠𝑖𝑛^{−1}$, e $𝑡𝑎𝑛^{−1}$, é necessário escolher um botão que represente uma operação inversa, por exemplo, clicar no botão $𝑠𝑖𝑛^{−1}$ e depois inserir um número que está em radianos (rads).
+
+![Operação com inverso de seno](https://github.com/D1ogoCS/Calculadora/blob/main/imagens/operacaoTrignometrica2.png)
+
+*Operação com inverso de seno*
 
